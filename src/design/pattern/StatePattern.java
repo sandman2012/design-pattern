@@ -10,5 +10,8 @@ package design.pattern;
  * @author atomixsystem
  */
 public class StatePattern {
+    public StatePattern(){
+        System.out.println("Initializing state pattern");
+    }
     
 }
