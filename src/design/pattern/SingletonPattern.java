@@ -9,14 +9,9 @@ package design.pattern;
  *
  * @author atomixsystem
  */
-public class DesignPattern {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        new SingletonPattern();
+public class SingletonPattern {
+    public SingletonPattern(){
+        System.out.println("Initializing Singleton");
     }
     
 }
